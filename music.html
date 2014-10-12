@@ -1,9 +1,0 @@
----
-layout: base
----
-{% for post in site.tags.music %}
-    <article>
-    {% include post_detail.html %}
-    <div class="center"><a href="{{post.url | lower }}#disqus_thread">[comments]</a></div>
-    </article>
-{% endfor %}
