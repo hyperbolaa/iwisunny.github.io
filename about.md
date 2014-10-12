@@ -6,7 +6,6 @@ title: "关于：About"
 My name is wangXi <sunny.w>, 23 yrs old, living in WuHan.
 
 ###Links
-[Blog] (<http://iwisunny.com>)  
 [GitHub] (<https://github.com/iwisunny>)  
 
 <!-- Blog Comments -->
