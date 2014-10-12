@@ -1,14 +1,14 @@
 ---
 layout: default
-title: "Winfirm's Blog - by Steven Pan(潘学文)"
+title: "wangXi's Blog - by iwisunny(汪曦)"
 ---
 <h1 class="page-header">
-  Winfirm's Blog
+  wangXi's Blog
   <small>
-    Android, Linux, Java, reading...
+    PHP, Linux, Javascript, ...
   </small>
 </h1>
-{% include recommend.html %} 
+
 {% for post in paginator.posts %}
 <h2>
   <a href="{{ post.url }}">
@@ -24,6 +24,7 @@ title: "Winfirm's Blog - by Steven Pan(潘学文)"
 	<p> <a href="{{ post.url }}"><span >阅读全文 &raquo; </span></a></p>
 <hr>
 {% endfor %}
+
 <!-- Pager -->
 <ul class="pager">
   {% if paginator.previous_page %} {% if paginator.previous_page == 1 %}
