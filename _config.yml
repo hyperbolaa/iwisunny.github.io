@@ -1,0 +1,7 @@
+permalink: /:year/:month/:title.html
+pygments: true
+safe: true
+paginate: 2
+markdown: rdiscount
+
+twitter: jkirchartz

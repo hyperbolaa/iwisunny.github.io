@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title> {% if page.title %} {{ page.title }} | {% endif %} Joel Kirchartz - Web Developer n'at</title>
+        <meta name="viewport" content="width=device-width" />
+        <link rel="stylesheet" media="not print" href="/css/style.css" />
+        <link rel="stylesheet" media="only print" href="/css/print.css" />
+        <link rel="stylesheet" href="/css/syntax.css" />
+        <link href="/favicon.ico" rel="icon" type="image/x-icon" />
+        <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    </head>
+    <body>
+
+        <div id="main" >
+            <header>
+                <h1><a href="/">JKirchartz</a></h1>
+                <span>Web Monkey n'at</span>
+                <nav role="navigation">
+                    <a href="/about.html">About</a>
+                    <a href="/archive.html">Archive</a>
+                    <a href="/demos/">Demos</a>
+                    <a href="/portfolio.html">Portfolio</a>
+                    <a href="/music.html">Music</a>
+                </nav>
+            </header>
+            {{ content }}
+        </div>
+            <footer>
+                <ul id="social_media">
+                    <li><a href="http://www.linkedin.com/in/jkirchartz" title="connect with me on linkedin"><img src="/images/linkedin-48x48.png" alt="linkedin" /></a></li>
+                    <li><a href="http://stackoverflow.com/users/276250/jkirchartz" title="check my street cred on stackoverflow"><img src="/images/stackoverflow-48x48.png" alt="stackoverflow" /></a></li>
+                    <li><a href="http://twitter.com/JKirchartz" title="follow me on twitter"><img src="/images/twitter-48x48.png" alt="twitter" /></a></li>
+                    <li><a href="http://github.com/JKirchartz" title="checkout my github"><img src="/images/github-48x48.png" alt="github" /></a></li>
+                    <li><a href="http://i-am-cc.org/instagram/jkirchartz" title="scope my pics on instagram"><img src="/images/instagram-48x48.png" alt="instagram" /></a></li>
+                    <li><a href="http://soundcloud.com/jkirchartz" title="remix me on soundcloud"><img src="/images/soundcloud-48x48.png" alt="soundcloud" /></a></li>
+                    <a >Research</a>
+                    <li><a href="http://research.jkirchartz.com" title="tumble along on tumblr (coding)"><img src="/images/tumblr-48x48.png" alt="tumblr" /></a></li>
+                    <li><a href="http://stash.jkirchartz.com/" title="tumble along on tumblr (random)"><img src="/images/tumblr-48x48.png" alt="tumblr" /></a></li>
+                    <li><a href="http://glitches.jkirchartz.com/" title="tumble along on tumblr (glitch art)"><img src="/images/tumblr-48x48.png" alt="tumblr" /></a></li>
+                    <li><a href="&#x6D;&#97;&#x69;&#x6C;&#116;&#x6F;:&#x6D;e&#64;&#x6A;&#x6B;&#105;&#x72;&#99;&#x68;&#97;r&#x74;&#122;&#x2E;&#x63;&#x6F;&#109;" title="shoot me an email"><img src="/images/email-48x48.png" alt="email" /></a></li>
+                    <li><a href="http://feeds.feedburner.com/JoelKirchartz" title="subscribe to my feed" rel="alternate" type="application/rss+xml"><img src="/images/feed-48x48.png" alt="feed"/></a></li>
+                </ul><div id="license">
+                    <p><a href="http://coderwall.com/jkirchartz"><img alt="Endorse JKirchartz on Coderwall" src="http://api.coderwall.com/jkirchartz/endorsecount.png" /></a></p>
+                    <p>All original code presented under the <a rel="license" href="https://raw.github.com/JKirchartz/NPL/master/NPL.txt">NP Liscence</a>
+                        licence; all wrongs reserved.</p>
+                    <p>All original text and images are under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons 3.0</a> attribution licence.</p>
+                </div>
+                <ul id="affiliations">
+                    <li><a href="http://internetdefenseleague.org"><img src="/images/IDL_badge.png" alt="Member of The Internet Defense League" /></a></li>
+                    <li><a href="http://www.alrdesign.com/dam.html"><img src="/images/DAM_badge.gif" alt="Designers Against Monoculture" /></a></li>
+                </ul>
+            </footer>
+
+        <canvas id="canvas"></canvas>
+        <script src="/js/background.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            window._idl = {};
+            _idl.variant = "banner";
+            (function() {
+                var idl = document.createElement('script');
+                idl.type = 'text/javascript';
+                idl.async = true;
+                idl.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'members.internetdefenseleague.org/include/?url=' + (_idl.url || '') + '&campaign=' + (_idl.campaign || '') + '&variant=' + (_idl.variant || 'banner');
+                document.getElementsByTagName('body')[0].appendChild(idl);
+            })();
+            function loadScript(src){
+                var script = document.createElement('script');
+                script.type = 'text/javascript';
+                script.async = true;
+                script.src = src;
+
+                var s = document.getElementsByTagName('script')[0];
+                s.parentNode.insertBefore(script, s);
+            }
+            var _gaq = _gaq || [],
+                protocol = document.location.protocol;
+            _gaq.push(['_setAccount', 'UA-21180085-1']);
+            _gaq.push(['_trackPageview']);
+
+            loadScript(('https:' == protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js');
+            loadScript("//api.flattr.com/js/0.6/load.js?mode=auto&uid=jkirchartz&category=text");
+        </script>
+<!--[if !(lt IE 8)]><!-->
+<script type="text/javascript"> 
+  (function(){
+    var e = document.createElement('script'); e.type='text/javascript'; e.async = true;
+    e.src = document.location.protocol + '//d1agz031tafz8n.cloudfront.net/thedaywefightback.js/widget.min.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(e, s);
+  })();
+</script>
+<!--<![endif]-->
+    </body>
+</html>

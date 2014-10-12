@@ -1,0 +1,16 @@
+<div class="center"> 
+    <a class="FlattrButton"
+{% if page.title %}
+    href="{{ page.url | lower }}"
+    title="{{ page.title }}"
+    data-flattr-tags="{{ page.tags | join ',' }}"
+{% endif %}
+{% if post.title %}
+    href="{{ post.url | lower  }}"
+    title="{{ post.title }}"
+    data-flattr-tags="{{ post.tags | join ',' }}"
+{% endif %}
+    data-flattr-category="text">
+        Flattr this post
+    </a>
+</div>
