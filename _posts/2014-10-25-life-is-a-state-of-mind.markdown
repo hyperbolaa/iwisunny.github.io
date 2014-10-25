@@ -1,10 +1,9 @@
 ---
 layout: post
 category: "reading"
-title: "life is a state of minds"
+title: "物质世界的几点思考"
 tags: ["cosmos", "universe", "youtube clip"]
 ---
-###Life is a state of minds, history is a shadow
 
 The subject of this article you are about to read reveals a crucial secret of your life.
 It concerns a subject that is liable to make fundamental changes in your outlook on the material world.
