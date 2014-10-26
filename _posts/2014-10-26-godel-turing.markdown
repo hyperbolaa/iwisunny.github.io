@@ -111,7 +111,7 @@ Satan_algo(Satan_algo) 不能停机 => 它能够停机
 当然，最后我们会回溯到一切的尽头，康托尔那里，看看停机问题、Y combinator、以及不完备性定理是如何自然而然地由康托尔的对角线方法推导出来的，
 我们将会看到这些看似神奇的构造性证明的背后，其实是一个简洁优美的数学方法在起作用。
 
-Reference: [http://mindhacks.cn/2006/10/15/cantor-godel-turing-an-eternal-golden-diagonal/]http://mindhacks.cn/2006/10/15/cantor-godel-turing-an-eternal-golden-diagonal/
+Reference: <a href="http://mindhacks.cn/2006/10/15/cantor-godel-turing-an-eternal-golden-diagonal" target="_blank">Cantor-Godel-Turing</a>
 
 
 
