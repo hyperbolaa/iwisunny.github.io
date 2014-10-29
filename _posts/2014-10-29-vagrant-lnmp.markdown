@@ -1,7 +1,7 @@
 ---
 layout: post
 category: "web"
-title: "vagrant linux-nginx-mysql-php stack"
+title: "vagrant with LNMP stack"
 tags: ["vagrant", "lnmp"]
 ---
 
@@ -34,17 +34,17 @@ tags: ["vagrant", "lnmp"]
     apt-get install php5-fpm
 
    //安装其它php 的库
-   apt-get install php5-cli php5-mysql php5-curl php5-gd
+    apt-get install php5-cli php5-mysql php5-curl php5-gd
 
    //安装mysql
-   apt-get install mysql-server
+    apt-get install mysql-server
 
    //安装git
-   apt-get install git-core
+    apt-get install git-core
 
    //安装composer (php自动化构建工具)
-   curl -sS https://getcomposer.org/installer | php
-   mv composer.phar /usr/local/bin/composer
+    curl -sS https://getcomposer.org/installer | php
+    mv composer.phar /usr/local/bin/composer
 
    //安装node.js
-   apt-get install nodejs
+    apt-get install nodejs
