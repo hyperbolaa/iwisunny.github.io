@@ -33,18 +33,18 @@ tags: ["vagrant", "lnmp"]
     //安装php-fpm
     apt-get install php5-fpm
 
-   //安装其它php 的库
+    //安装其它php 的库
     apt-get install php5-cli php5-mysql php5-curl php5-gd
 
-   //安装mysql
+    //安装mysql
     apt-get install mysql-server
 
-   //安装git
+    //安装git
     apt-get install git-core
 
-   //安装composer (php自动化构建工具)
+    //安装composer (php自动化构建工具)
     curl -sS https://getcomposer.org/installer | php
     mv composer.phar /usr/local/bin/composer
 
-   //安装node.js
+    //安装node.js
     apt-get install nodejs
