@@ -10,8 +10,8 @@ why js?
 	http://cocos2d-x.org/docs/manual/framework/html5/v2/cocosh5-advantages/en
 
 ####Environment Requirements
-	A Supported OS (Ubuntu 12.10+, OS X 10.7+, Windows 7+)
-	Cocos2d-x v3.0 (https://github.com/cocos2d/cocos2d-x/)
+    A Supported OS (Ubuntu 12.10+, OS X 10.7+, Windows 7+)
+    Cocos2d-x v3.0 (https://github.com/cocos2d/cocos2d-x/)
 	JDK/SDK 1.6+
 	NDK r9d+
 	Apache Ant
